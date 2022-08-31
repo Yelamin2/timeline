@@ -1,0 +1,19 @@
+:root {
+    background-color: #A9A9A9;
+
+}
+html {
+
+    box-sizing: inherit;
+    width: 100%;
+}
+
+.card {
+
+    background-color: #F5F5F5;
+    box-sizing: content-box;
+    width: 45%;
+    
+}
+
+
