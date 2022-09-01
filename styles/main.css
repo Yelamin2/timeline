@@ -58,6 +58,8 @@ transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     
+    
+    
 }
 
 /*.timeline .card-right {
@@ -76,14 +78,27 @@ transform: translateX(-50%);
 
 section {
     display: flex;
-    flex-direction: column;
     background: teal;
     margin-top: 30px;
     width: 45%;
     border-radius: 5px;
     padding: 10px;
+
 }
 
+section:nth-child(even){
+    margin-left: auto;
+}
+
+@media (max-width: 768px){
+    section:nth-child(even){
+        margin-left:initial;
+    }
+    .timeline::before{
+        left: -2%;
+    }
+
+}
 
 
 
